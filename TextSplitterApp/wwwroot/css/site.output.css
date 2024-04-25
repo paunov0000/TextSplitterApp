@@ -699,9 +699,9 @@ video {
   font-family: "Jersey 15", sans-serif;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-sm{
@@ -709,21 +709,12 @@ video {
   line-height: 1.25rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.font-normal{
-  font-weight: 400;
+.font-bold{
+  font-weight: 700;
 }
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-bold{
-  font-weight: 700;
 }
 
 .italic{
