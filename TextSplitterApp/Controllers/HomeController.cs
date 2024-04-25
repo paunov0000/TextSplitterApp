@@ -21,7 +21,7 @@ namespace TextSplitterApp.Controllers
                 return View(textViewModel);
             }
 
-            textViewModel.SplitText = string.Join("\n", textViewModel.Text.Split(" "));
+            textViewModel.SplitText = string.Join("\n", textViewModel.Text.Split(" ", StringSplitOptions.RemoveEmptyEntries));
            
             return View(textViewModel);
         }
